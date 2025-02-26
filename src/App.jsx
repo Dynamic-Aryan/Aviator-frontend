@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:5000"; // Update this if needed
+const BACKEND_URL = "https://aviator-backend-l3oz.onrender.com"; // Update this if needed
 
 const socket = io(BACKEND_URL, {
     transports: ["websocket", "polling"],
